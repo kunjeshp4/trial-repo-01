@@ -20,3 +20,12 @@ print(multiply(2, 3, 4))     # -> 24
 print(div(100, 2, 5))        # -> 10.0
 print(exponential(2, 3))     # -> 8
 ```
+
+## Running Tests
+
+Install `pytest` and run the test suite from the repository root:
+
+```bash
+pip install pytest
+pytest
+```
