@@ -42,8 +42,5 @@ def exponential(*args):
 
 
 if __name__ == "__main__":
-    print("Add:", add(1, 2, 3))
-    print("Subtract:", subtract(10, 1, 2))
-    print("Multiply:", multiply(2, 3, 4))
-    print("Divide:", div(100, 2, 5))
-    print("Exponential:", exponential(2, 3))
+    from cli import main as cli_main
+    cli_main()
